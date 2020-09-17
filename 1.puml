@@ -1,0 +1,12 @@
+@startuml
+class shape
+shape<|-- Circle
+shape<|-- Rectangle
+shape<|-- Square
+Circle<|-- SmallCircle
+Circle<|-- BigCircle
+Rectangle<|--SmallRectangle
+Rectangle<|--BigRectangle
+Square<|--SmallSquare
+Square<|--BigSquare
+@enduml
